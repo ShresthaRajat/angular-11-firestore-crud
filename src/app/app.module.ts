@@ -23,7 +23,15 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyBmK3_ojzsXbmW-165MKBnundmP4S32Pwg",
+      authDomain: "new-auth-37004.firebaseapp.com",
+      projectId: "new-auth-37004",
+      storageBucket: "new-auth-37004.appspot.com",
+      messagingSenderId: "864547691482",
+      appId: "1:864547691482:web:03621d72a047c2b9f7bee3"
+    }),
+    
     AngularFirestoreModule, // for firestore
   ],
   providers: [],
